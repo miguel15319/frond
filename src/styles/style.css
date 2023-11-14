@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,600;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(233, 244, 255, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card_main {
+    width: 1200px;
+    height: 700px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    padding: 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+.init{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 890px;
+    height: 700px;
+}
+
+
+.lind{
+    background-color: rgba(51, 73, 150, 1);
+    width: 890px;
+    height: 700px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    border-radius:0 10px 10px 0;
+}
+
+
+.cardform {
+    width: 100%;
+    max-width: 450px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.364);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+.carinfo img{
+
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+.carinfo h1{
+    font-size: 23px;
+    color:rgb(0, 0, 0);
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+.lind h2 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 15px;
+}
+
+
+.form-group input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.options {
+
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.options input {
+    margin-right: 5px;
+    margin-left: 20px;
+    font-family: 'Dosis', sans-serif;
+
+
+}
+
+
+.button button {
+    background-color:rgba(255, 255, 255, 0.721);
+    width: 100px;
+    padding: 13px;
+    border: none;
+    border-radius: 20px;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+}       
