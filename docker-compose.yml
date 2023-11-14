@@ -1,0 +1,8 @@
+version: '3.9'
+services:
+  FeedbackZone:
+    container_name: FeedbackZone-frontend
+    build:
+      context: ./
+    ports:
+      - 3285:3285
